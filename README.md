@@ -24,7 +24,7 @@ This project calculates the total points earned on a transaction based on the fo
 - Use CURL to make a POST and GET requests
 - It returns a response as required by the documentation. Plus, it also prints the transaction id and the total points earned for manual testing purposes
 
-POST request 1 -> should print 15 for total points 
+POST request 1 -> should print 15 for total points \
 curl http://localhost:8080/receipts/process \
     --include \
     --header "Content-Type: application/json" \
@@ -41,7 +41,7 @@ curl http://localhost:8080/receipts/process \
 }'
 
 
-POST request 2 -> should print 31 for total points
+POST request 2 -> should print 31 for total points \
 curl http://localhost:8080/receipts/process \
     --include \
     --header "Content-Type: application/json" \
@@ -57,7 +57,7 @@ curl http://localhost:8080/receipts/process \
 }'
 
 
-POST request 3 -> should print 28 for total points 
+POST request 3 -> should print 28 for total points \
 curl http://localhost:8080/receipts/process \
     --include \
     --header "Content-Type: application/json" \
@@ -88,7 +88,7 @@ curl http://localhost:8080/receipts/process \
 }'
 
 
-POST request 4 -> should print 109 for total points 
+POST request 4 -> should print 109 for total points \
 curl http://localhost:8080/receipts/process \
     --include \
     --header "Content-Type: application/json" \
