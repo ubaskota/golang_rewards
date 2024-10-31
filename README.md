@@ -1,5 +1,5 @@
 # golang_rewards
-assessment
+Program written in golang to calculate rewards per transaction
 
 ## Description
 This project calculates the total points earned on a transaction based on the following criteria:
